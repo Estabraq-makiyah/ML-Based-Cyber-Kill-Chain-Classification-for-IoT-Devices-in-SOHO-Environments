@@ -1,2 +1,46 @@
-# ML-Based-Cyber-Kill-Chain-Classification-for-IoT-Devices-in-SOHO-Environments
-Machine-learning intrusion detection studies on the CICIoT2023 IoT dataset routinely report near-perfect accuracy. We show that, for the widely used class-balanced six-class release, such figures are an artefact of the evaluation protocol. A data audit finds that 39.0\% of the 1.8 million records are exact duplicates introduced by oversampling: under the conventional random 80/20 split, 48.6\% of test records have an identical copy in the training set. We also find that the inter-arrival-time feature behaves as a capture-time stamp, achieving 87.4\% accuracy on its own. Under the conventional protocol, Random Forest reaches 99.86\% accuracy. With duplicates removed, the shortcut feature excluded, capture-time-blocked five-fold cross-validation and nested hyperparameter tuning, the best of seven models (XGBoost) reaches a macro-F1 of 0.733 (95\% CI $\pm$0.098), and the three tree ensembles are statistically indistinguishable. At a realistic 1\% attack prevalence, alert precision falls to 8.3\%. On an independently processed, duplicate-free release of the full CICIoT2023 capture, a random split again yields a near-perfect macro-F1 (0.992), whereas holding out entire capture files reduces it to 0.867, with previously unseen web-attack subtypes largely undetected. We then evaluate a Cyber Kill Chain stage-level output layer on what a stage label adds beyond an attack label: merging the DDoS and DoS categories into a single Delivery stage removes a confusion that the window-averaged features of this release cannot resolve; a previously unseen Delivery subtype is still assigned to the Delivery stage; and cost-sensitive stage decisions reduce missed attacks. SHAP analysis is repeated on the leakage-controlled model. We release the audit and the evaluation code so that results on this dataset can be reported reproducibly.
+# Stage-Aware Intrusion Classification for SOHO IoT Traffic under Leakage-Controlled Evaluation
+
+Code and result files for the article by Benjamin Aziz, Estabraq Makiyah and Ukamaka Oragwu.
+Every number, table and figure in the revised manuscript is produced by the scripts below.
+
+## Pipeline
+
+| Step | Script | Paper section | Output |
+|---|---|---|---|
+| 0 | `scripts/00_prepare_data.py` | 3.1, 3.2 | `data/data.parquet`, `data/dedup.parquet` (unique records + capture-time block) |
+| 1 | `scripts/01_reproduce_original.py` | 4.1 | Original random-split results; test rows with an exact copy in training; Phase 2 relabelling check |
+| 2 | `scripts/02_label_verification.py` | 3.1.2 | Traffic signatures confirming class 3 = Mirai, 4 = Recon, 5 = Web |
+| 3 | `scripts/03_leakage_audit.py` | 4.1 | Protocols P0 to P4 (deduplication, IAT removal, capture-time-blocked CV) |
+| 4 | `scripts/04_detection_models.py <model>` | 3.5, 4.2, 4.3 | Seven classifiers under P4 with nested randomised tuning; noise robustness |
+| 5 | `scripts/05_phase2_stages.py` | 3.3, 4.5 | Merged stages, hierarchical cascade, held-out subtype, leave-one-family-out, cost-sensitive decisions |
+| 6 | `scripts/06_shap.py` | 4.6 | TreeSHAP on the leakage-controlled LightGBM |
+| 7 | `scripts/07_statistics.py` | 4.2, 4.3 | Main table, 95% CIs, Friedman, Nadeau-Bengio and McNemar tests, prior-shift analysis |
+| E | `external/` | 4.4 | Capture-file-disjoint evaluation on the original CICIoT2023 release |
+| F | `figures/` | all | Figure 1 and the result figures |
+
+Primary protocol (P4): exact duplicates removed (1,097,192 unique records), IAT excluded (15 features),
+5-fold cross-validation in which each class is split into five contiguous capture-time blocks.
+
+## Running
+
+```bash
+pip install -r requirements.txt
+# put df_FL_CICIoT2023_6_classes.csv in data/ (see data/README.md)
+bash run_all.sh
+```
+
+Steps 3 and 4 take several hours on a 4-core machine. Steps 6 and 7 and the figure scripts need the intermediate files
+(`results/*.npy`, `results/model_*_fold0.pkl`) written by step 4.
+
+## Results included
+
+`results/` holds the JSON outputs used in the paper, so tables and figures can be checked without re-running the models.
+`results/table_main.csv` is the main comparison table (P4). `results/external/e1_external.json` holds the external evaluation.
+
+## Data
+
+Datasets are not redistributed here. See `data/README.md` for sources and SHA-256 checksums.
+
+## Licence
+
+Code: MIT (see `LICENSE`). The CICIoT2023 data remain subject to the licence of the Canadian Institute for Cybersecurity.

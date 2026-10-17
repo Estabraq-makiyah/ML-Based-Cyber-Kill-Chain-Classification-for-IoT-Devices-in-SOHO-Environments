@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "Code for: Stage-Aware Intrusion Classification for SOHO IoT Traffic under Leakage-Controlled Evaluation"
+authors:
+  - family-names: Aziz
+    given-names: Benjamin
+  - family-names: Makiyah
+    given-names: Estabraq
+  - family-names: Oragwu
+    given-names: Ukamaka
+license: MIT
+type: software

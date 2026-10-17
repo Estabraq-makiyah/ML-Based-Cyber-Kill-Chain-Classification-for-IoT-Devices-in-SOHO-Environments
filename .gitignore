@@ -1,0 +1,12 @@
+# Datasets and large intermediate outputs are not versioned
+data/*
+!data/README.md
+results/*.npy
+results/*.pkl
+results/_tmp.pkl
+results/s2_parts/
+results/external/*.npy
+figures/output/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
