@@ -1,0 +1,2722 @@
+{
+ "n": 747267,
+ "per_cat": {
+  "DDoS": 150128,
+  "DoS": 150024,
+  "Mirai": 150024,
+  "Benign": 150000,
+  "Recon": 122262,
+  "Web": 24829
+ },
+ "files_per_cat": {
+  "Benign": 4,
+  "DDoS": 176,
+  "DoS": 38,
+  "Mirai": 76,
+  "Recon": 5,
+  "Web": 6
+ },
+ "fold_test_files": {
+  "0": [
+   "Benign_Final/BenignTraffic2.pcap.csv",
+   "DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation10.pcap.csv",
+   "DDoS-HTTP_Flood/DDoS-HTTP_Flood-.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood10.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood16.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood19.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood23.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood25.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood8.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood9.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation18.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation3.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation4.pcap.csv",
+   "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood12.pcap.csv",
+   "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood7.pcap.csv",
+   "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood9.pcap.csv",
+   "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood11.pcap.csv",
+   "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood2.pcap.csv",
+   "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood3.pcap.csv",
+   "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood5.pcap.csv",
+   "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood6.pcap.csv",
+   "DDoS-SYN_Flood/DDoS-SYN_Flood11.pcap.csv",
+   "DDoS-SYN_Flood/DDoS-SYN_Flood14.pcap.csv",
+   "DDoS-SYN_Flood/DDoS-SYN_Flood9.pcap.csv",
+   "DDoS-SlowLoris/DDoS-SlowLoris.pcap.csv",
+   "DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood.pcap.csv",
+   "DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood10.pcap.csv",
+   "DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood11.pcap.csv",
+   "DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood13.pcap.csv",
+   "DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood5.pcap.csv",
+   "DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood6.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood14.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood16.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood17.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood5.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood6.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood8.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood1.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood10.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood2.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood3.pcap.csv",
+   "DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation5.pcap.csv",
+   "DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation8.pcap.csv",
+   "DoS-HTTP_Flood/DoS-HTTP_Flood.pcap.csv",
+   "DoS-HTTP_Flood/DoS-HTTP_Flood1.pcap.csv",
+   "DoS-SYN_Flood/DoS-SYN_Flood5.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood13.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood14.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood15.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood16.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood5.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood6.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood12.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood13.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood14.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood15.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood2.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood25.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood3.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood6.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood8.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood10.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood19.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood21.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood4.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood5.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain18.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain19.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain2.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain7.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain8.pcap.csv",
+   "Recon-OSScan/Recon-OSScan.pcap.csv",
+   "Recon-PortScan/Recon-PortScan.pcap.csv",
+   "SqlInjection/SqlInjection.pcap.csv",
+   "Uploading_Attack/Uploading_Attack.pcap.csv"
+  ],
+  "1": [
+   "Benign_Final/BenignTraffic.pcap.csv",
+   "BrowserHijacking/BrowserHijacking.pcap.csv",
+   "DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation4.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood12.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood13.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood14.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood18.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood20.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood24.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation1.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation10.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation11.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation15.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation2.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation5.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation8.pcap.csv",
+   "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood10.pcap.csv",
+   "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood13.pcap.csv",
+   "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood4.pcap.csv",
+   "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood6.pcap.csv",
+   "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood15.pcap.csv",
+   "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood4.pcap.csv",
+   "DDoS-SYN_Flood/DDoS-SYN_Flood13.pcap.csv",
+   "DDoS-SYN_Flood/DDoS-SYN_Flood15.pcap.csv",
+   "DDoS-SYN_Flood/DDoS-SYN_Flood2.pcap.csv",
+   "DDoS-SYN_Flood/DDoS-SYN_Flood4.pcap.csv",
+   "DDoS-SYN_Flood/DDoS-SYN_Flood7.pcap.csv",
+   "DDoS-SYN_Flood/DDoS-SYN_Flood8.pcap.csv",
+   "DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood12.pcap.csv",
+   "DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood2.pcap.csv",
+   "DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood3.pcap.csv",
+   "DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood8.pcap.csv",
+   "DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood9.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood11.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood12.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood4.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood9.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood11.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood14.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood15.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood17.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood4.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood8.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood9.pcap.csv",
+   "DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation11.pcap.csv",
+   "DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation12.pcap.csv",
+   "DoS-SYN_Flood/DoS-SYN_Flood1.pcap.csv",
+   "DoS-SYN_Flood/DoS-SYN_Flood6.pcap.csv",
+   "DoS-TCP_Flood/DoS-TCP_Flood10.pcap.csv",
+   "DoS-TCP_Flood/DoS-TCP_Flood2.pcap.csv",
+   "DoS-TCP_Flood/DoS-TCP_Flood4.pcap.csv",
+   "DoS-TCP_Flood/DoS-TCP_Flood5.pcap.csv",
+   "DoS-TCP_Flood/DoS-TCP_Flood6.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood11.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood4.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood9.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood19.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood22.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood24.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood26.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood28.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood4.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood9.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood13.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood16.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood2.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood20.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood6.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain10.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain11.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain13.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain14.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain5.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain9.pcap.csv",
+   "Recon-HostDiscovery/Recon-HostDiscovery.pcap.csv",
+   "XSS/XSS.pcap.csv"
+  ],
+  "2": [
+   "Backdoor_Malware/Backdoor_Malware.pcap.csv",
+   "Benign_Final/BenignTraffic1.pcap.csv",
+   "DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation1.pcap.csv",
+   "DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation11.pcap.csv",
+   "DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation6.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood1.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood11.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood21.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood22.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood26.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood5.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood6.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood7.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation13.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation14.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation16.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation6.pcap.csv",
+   "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood.pcap.csv",
+   "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood1.pcap.csv",
+   "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood15.pcap.csv",
+   "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood8.pcap.csv",
+   "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood12.pcap.csv",
+   "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood7.pcap.csv",
+   "DDoS-SYN_Flood/DDoS-SYN_Flood10.pcap.csv",
+   "DDoS-SYN_Flood/DDoS-SYN_Flood12.pcap.csv",
+   "DDoS-SYN_Flood/DDoS-SYN_Flood3.pcap.csv",
+   "DDoS-SYN_Flood/DDoS-SYN_Flood5.pcap.csv",
+   "DDoS-SYN_Flood/DDoS-SYN_Flood6.pcap.csv",
+   "DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood4.pcap.csv",
+   "DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood7.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood1.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood13.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood2.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood3.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood12.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood16.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood19.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood5.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood6.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood7.pcap.csv",
+   "DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation1.pcap.csv",
+   "DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation10.pcap.csv",
+   "DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation6.pcap.csv",
+   "DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation7.pcap.csv",
+   "DoS-SYN_Flood/DoS-SYN_Flood2.pcap.csv",
+   "DoS-SYN_Flood/DoS-SYN_Flood7.pcap.csv",
+   "DoS-TCP_Flood/DoS-TCP_Flood.pcap.csv",
+   "DoS-TCP_Flood/DoS-TCP_Flood3.pcap.csv",
+   "DoS-TCP_Flood/DoS-TCP_Flood7.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood10.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood12.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood2.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood3.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood17.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood18.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood23.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood1.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood11.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood14.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood15.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood18.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood3.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood7.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood8.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood9.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain1.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain20.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain22.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain23.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain24.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain3.pcap.csv",
+   "VulnerabilityScan/VulnerabilityScan.pcap.csv"
+  ],
+  "3": [
+   "Benign_Final/BenignTraffic3.pcap.csv",
+   "CommandInjection/CommandInjection.pcap.csv",
+   "DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation.pcap.csv",
+   "DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation12.pcap.csv",
+   "DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation2.pcap.csv",
+   "DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation3.pcap.csv",
+   "DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation5.pcap.csv",
+   "DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation7.pcap.csv",
+   "DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation8.pcap.csv",
+   "DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation9.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood15.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood17.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood2.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood3.pcap.csv",
+   "DDoS-ICMP_Flood/DDoS-ICMP_Flood4.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation12.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation17.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation19.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation7.pcap.csv",
+   "DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation9.pcap.csv",
+   "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood11.pcap.csv",
+   "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood14.pcap.csv",
+   "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood2.pcap.csv",
+   "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood3.pcap.csv",
+   "DDoS-PSHACK_FLOOD/DDoS-PSHACK_Flood5.pcap.csv",
+   "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood.pcap.csv",
+   "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood1.pcap.csv",
+   "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood10.pcap.csv",
+   "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood13.pcap.csv",
+   "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood14.pcap.csv",
+   "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood8.pcap.csv",
+   "DDoS-RSTFINFLOOD/DDoS-RSTFINFlood9.pcap.csv",
+   "DDoS-SYN_Flood/DDoS-SYN_Flood.pcap.csv",
+   "DDoS-SYN_Flood/DDoS-SYN_Flood1.pcap.csv",
+   "DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood1.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood10.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood15.pcap.csv",
+   "DDoS-TCP_Flood/DDoS-TCP_Flood7.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood13.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood18.pcap.csv",
+   "DDoS-UDP_Flood/DDoS-UDP_Flood20.pcap.csv",
+   "DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation.pcap.csv",
+   "DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation2.pcap.csv",
+   "DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation3.pcap.csv",
+   "DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation4.pcap.csv",
+   "DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation9.pcap.csv",
+   "DoS-SYN_Flood/DoS-SYN_Flood.pcap.csv",
+   "DoS-SYN_Flood/DoS-SYN_Flood3.pcap.csv",
+   "DoS-SYN_Flood/DoS-SYN_Flood4.pcap.csv",
+   "DoS-TCP_Flood/DoS-TCP_Flood1.pcap.csv",
+   "DoS-TCP_Flood/DoS-TCP_Flood8.pcap.csv",
+   "DoS-TCP_Flood/DoS-TCP_Flood9.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood1.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood7.pcap.csv",
+   "DoS-UDP_Flood/DoS-UDP_Flood8.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood1.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood10.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood11.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood16.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood20.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood21.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood27.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood5.pcap.csv",
+   "Mirai-greeth_flood/Mirai-greeth_flood7.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood12.pcap.csv",
+   "Mirai-greip_flood/Mirai-greip_flood17.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain12.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain15.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain16.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain17.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain21.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain4.pcap.csv",
+   "Mirai-udpplain/Mirai-udpplain6.pcap.csv",
+   "Recon-PingSweep/Recon-PingSweep.pcap.csv"
+  ]
+ },
+ "LGBM|all": {
+  "random_split": {
+   "macroF1": 0.8091780698687594,
+   "bal_acc": 0.7951817512077674,
+   "acc": 0.8580321919311412,
+   "mcc": 0.8257906512972886,
+   "f1_per_class": [
+    0.8525108230669425,
+    0.8270536740006108,
+    0.854420731707317,
+    0.9987595534392382,
+    0.7826215311946467,
+    0.5397021058038007
+   ],
+   "cm": [
+    [
+     33181,
+     0,
+     0,
+     0,
+     4023,
+     296
+    ],
+    [
+     1,
+     28437,
+     9075,
+     17,
+     2,
+     0
+    ],
+    [
+     0,
+     2744,
+     34751,
+     10,
+     1,
+     0
+    ],
+    [
+     0,
+     54,
+     12,
+     37440,
+     0,
+     0
+    ],
+    [
+     6102,
+     0,
+     0,
+     0,
+     23859,
+     605
+    ],
+    [
+     1059,
+     0,
+     0,
+     0,
+     2521,
+     2627
+    ]
+   ]
+  },
+  "file_disjoint_folds": [
+   {
+    "macroF1": 0.7085792134927247,
+    "bal_acc": 0.7165478712932646,
+    "acc": 0.7844404274306112,
+    "mcc": 0.7430575214155976,
+    "f1_per_class": [
+     0.7369097466937523,
+     0.7532603185818958,
+     0.8200517609992123,
+     0.998068237833229,
+     0.7134834769973886,
+     0.22970173985086992
+    ],
+    "cm": [
+     [
+      35550,
+      0,
+      0,
+      0,
+      1623,
+      327
+     ],
+     [
+      0,
+      24519,
+      12943,
+      68,
+      1,
+      1
+     ],
+     [
+      2,
+      3010,
+      36439,
+      29,
+      0,
+      0
+     ],
+     [
+      0,
+      40,
+      8,
+      37458,
+      0,
+      0
+     ],
+     [
+      21941,
+      0,
+      0,
+      0,
+      36337,
+      1722
+     ],
+     [
+      1491,
+      0,
+      0,
+      0,
+      3897,
+      1109
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.7125007124301149,
+    "bal_acc": 0.710160103267258,
+    "acc": 0.7758171945984571,
+    "mcc": 0.7288178057868818,
+    "f1_per_class": [
+     0.6986355925953242,
+     0.7644243631283255,
+     0.818173440235923,
+     0.998372074404206,
+     0.6669441900480115,
+     0.32845461416889987
+    ],
+    "cm": [
+     [
+      23682,
+      0,
+      0,
+      0,
+      13316,
+      502
+     ],
+     [
+      0,
+      25716,
+      11799,
+      16,
+      1,
+      0
+     ],
+     [
+      1,
+      3956,
+      35512,
+      10,
+      1,
+      0
+     ],
+     [
+      0,
+      78,
+      17,
+      37410,
+      1,
+      0
+     ],
+     [
+      4012,
+      0,
+      0,
+      0,
+      24032,
+      1956
+     ],
+     [
+      2600,
+      0,
+      0,
+      0,
+      4715,
+      2390
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.7425917017576897,
+    "bal_acc": 0.755097200697052,
+    "acc": 0.8204348881337982,
+    "mcc": 0.7796036937244236,
+    "f1_per_class": [
+     0.8471364520768124,
+     0.783919037595662,
+     0.7917672945848763,
+     0.9974088419927875,
+     0.684355275914604,
+     0.3509633083813965
+    ],
+    "cm": [
+     [
+      35049,
+      0,
+      0,
+      0,
+      2118,
+      333
+     ],
+     [
+      1,
+      28118,
+      9398,
+      15,
+      0,
+      0
+     ],
+     [
+      0,
+      6015,
+      29506,
+      11,
+      0,
+      0
+     ],
+     [
+      0,
+      72,
+      96,
+      37338,
+      0,
+      0
+     ],
+     [
+      9538,
+      0,
+      0,
+      0,
+      17294,
+      3168
+     ],
+     [
+      659,
+      0,
+      0,
+      0,
+      1129,
+      1430
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.7328682591956285,
+    "bal_acc": 0.7672210051641418,
+    "acc": 0.8782144714622354,
+    "mcc": 0.8442649430228691,
+    "f1_per_class": [
+     0.9310146515130768,
+     0.857866577063248,
+     0.84262849479607,
+     0.9965936610160471,
+     0.313458262350937,
+     0.4556479084343916
+    ],
+    "cm": [
+     [
+      33996,
+      0,
+      0,
+      0,
+      3298,
+      206
+     ],
+     [
+      2,
+      33190,
+      4148,
+      189,
+      1,
+      2
+     ],
+     [
+      0,
+      6619,
+      28903,
+      10,
+      0,
+      0
+     ],
+     [
+      0,
+      37,
+      19,
+      37449,
+      1,
+      0
+     ],
+     [
+      648,
+      0,
+      0,
+      0,
+      1564,
+      50
+     ],
+     [
+      884,
+      0,
+      0,
+      0,
+      2853,
+      1672
+     ]
+    ]
+   }
+  ],
+  "file_disjoint_macroF1_mean": 0.7241349717190394,
+  "file_disjoint_macroF1_sd": 0.016271230204114345,
+  "file_disjoint_pooled": {
+   "macroF1": 0.7363206189931009,
+   "bal_acc": 0.7297504167182488,
+   "acc": 0.810504143766552,
+   "mcc": 0.7666322924674444,
+   "f1_per_class": [
+    0.8015909715799735,
+    0.7924958614270794,
+    0.8177860306387463,
+    0.9976102150806427,
+    0.6758714234529355,
+    0.33256921177922766
+   ],
+   "cm": [
+    [
+     128277,
+     0,
+     0,
+     0,
+     20355,
+     1368
+    ],
+    [
+     3,
+     111543,
+     38288,
+     288,
+     3,
+     3
+    ],
+    [
+     3,
+     19600,
+     130360,
+     60,
+     1,
+     0
+    ],
+    [
+     0,
+     227,
+     140,
+     149655,
+     2,
+     0
+    ],
+    [
+     36139,
+     0,
+     0,
+     0,
+     79227,
+     6896
+    ],
+    [
+     5634,
+     0,
+     0,
+     0,
+     12594,
+     6601
+    ]
+   ]
+  },
+  "f1_per_class_mean": [
+   0.8034241107197415,
+   0.7898675740922828,
+   0.8181552476540204,
+   0.9976107038115674,
+   0.5945603013277352,
+   0.3411918927088895
+  ]
+ },
+ "LGBM|noIAT": {
+  "random_split": {
+   "macroF1": 0.8085298992711983,
+   "bal_acc": 0.7946357032532179,
+   "acc": 0.8576093182097989,
+   "mcc": 0.8252544572576687,
+   "f1_per_class": [
+    0.8524623917435561,
+    0.8261583867637865,
+    0.8536717328217992,
+    0.9987596857870661,
+    0.7825745425981082,
+    0.5375526559128737
+   ],
+   "cm": [
+    [
+     33122,
+     1,
+     0,
+     0,
+     4082,
+     295
+    ],
+    [
+     1,
+     28412,
+     9096,
+     21,
+     2,
+     0
+    ],
+    [
+     0,
+     2784,
+     34712,
+     10,
+     0,
+     0
+    ],
+    [
+     0,
+     52,
+     10,
+     37444,
+     0,
+     0
+    ],
+    [
+     6041,
+     0,
+     0,
+     0,
+     23910,
+     615
+    ],
+    [
+     1045,
+     0,
+     0,
+     0,
+     2546,
+     2616
+    ]
+   ]
+  },
+  "file_disjoint_folds": [
+   {
+    "macroF1": 0.7063922813796073,
+    "bal_acc": 0.7146595504086343,
+    "acc": 0.7833237992815139,
+    "mcc": 0.7417441889348602,
+    "f1_per_class": [
+     0.7362906982763083,
+     0.7510495317473742,
+     0.818797077009556,
+     0.9981479754306957,
+     0.7120548429550767,
+     0.22201356285863327
+    ],
+    "cm": [
+     [
+      35561,
+      0,
+      0,
+      0,
+      1621,
+      318
+     ],
+     [
+      1,
+      24420,
+      13047,
+      63,
+      1,
+      0
+     ],
+     [
+      2,
+      3035,
+      36416,
+      27,
+      0,
+      0
+     ],
+     [
+      0,
+      42,
+      7,
+      37457,
+      0,
+      0
+     ],
+     [
+      22044,
+      0,
+      0,
+      0,
+      36250,
+      1706
+     ],
+     [
+      1487,
+      0,
+      0,
+      0,
+      3946,
+      1064
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.7114200047684068,
+    "bal_acc": 0.7091500760244579,
+    "acc": 0.7755616175419746,
+    "mcc": 0.7286259488630329,
+    "f1_per_class": [
+     0.6985535880158649,
+     0.7616221857760549,
+     0.8170587356493558,
+     0.998425533050463,
+     0.6691290393979638,
+     0.3237309467207384
+    ],
+    "cm": [
+     [
+      23689,
+      0,
+      1,
+      0,
+      13334,
+      476
+     ],
+     [
+      0,
+      25541,
+      11974,
+      16,
+      1,
+      0
+     ],
+     [
+      1,
+      3918,
+      35549,
+      10,
+      2,
+      0
+     ],
+     [
+      0,
+      79,
+      13,
+      37414,
+      0,
+      0
+     ],
+     [
+      4009,
+      0,
+      0,
+      0,
+      24185,
+      1806
+     ],
+     [
+      2624,
+      0,
+      0,
+      0,
+      4766,
+      2315
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.7456555024805346,
+    "bal_acc": 0.7592412049055856,
+    "acc": 0.8220455849256432,
+    "mcc": 0.7816796521707675,
+    "f1_per_class": [
+     0.8475506552541225,
+     0.7866277200877696,
+     0.7952084588101452,
+     0.9974089112084624,
+     0.6850704002217953,
+     0.36206686930091186
+    ],
+    "cm": [
+     [
+      35053,
+      0,
+      0,
+      0,
+      2129,
+      318
+     ],
+     [
+      0,
+      28142,
+      9374,
+      15,
+      0,
+      1
+     ],
+     [
+      0,
+      5812,
+      29707,
+      12,
+      1,
+      0
+     ],
+     [
+      0,
+      65,
+      102,
+      37339,
+      0,
+      0
+     ],
+     [
+      9504,
+      0,
+      0,
+      0,
+      17297,
+      3199
+     ],
+     [
+      659,
+      0,
+      0,
+      0,
+      1070,
+      1489
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.7307664058909085,
+    "bal_acc": 0.765377949198804,
+    "acc": 0.8769238671897573,
+    "mcc": 0.8426384902383147,
+    "f1_per_class": [
+     0.9297332822169889,
+     0.8565677419354839,
+     0.8407743743977575,
+     0.9963933509894994,
+     0.3121444965572298,
+     0.4489851892484915
+    ],
+    "cm": [
+     [
+      33952,
+      0,
+      0,
+      0,
+      3358,
+      190
+     ],
+     [
+      1,
+      33192,
+      4146,
+      189,
+      1,
+      3
+     ],
+     [
+      0,
+      6728,
+      28794,
+      10,
+      0,
+      0
+     ],
+     [
+      1,
+      48,
+      22,
+      37434,
+      1,
+      0
+     ],
+     [
+      645,
+      0,
+      0,
+      0,
+      1564,
+      53
+     ],
+     [
+      937,
+      0,
+      0,
+      0,
+      2835,
+      1637
+     ]
+    ]
+   }
+  ],
+  "file_disjoint_macroF1_mean": 0.7235585486298644,
+  "file_disjoint_macroF1_sd": 0.01809469124870618,
+  "file_disjoint_pooled": {
+   "macroF1": 0.7356837276474635,
+   "bal_acc": 0.7290058428756122,
+   "acc": 0.8102338253930657,
+   "mcc": 0.7663101083995645,
+   "f1_per_class": [
+    0.8011681294312396,
+    0.7917126089276187,
+    0.8175176078401885,
+    0.9975934135528816,
+    0.6759410801963993,
+    0.33016952593645316
+   ],
+   "cm": [
+    [
+     128255,
+     0,
+     1,
+     0,
+     20442,
+     1302
+    ],
+    [
+     2,
+     111295,
+     38541,
+     283,
+     3,
+     4
+    ],
+    [
+     3,
+     19493,
+     130466,
+     59,
+     3,
+     0
+    ],
+    [
+     1,
+     234,
+     144,
+     149644,
+     1,
+     0
+    ],
+    [
+     36202,
+     0,
+     0,
+     0,
+     79296,
+     6764
+    ],
+    [
+     5707,
+     0,
+     0,
+     0,
+     12617,
+     6505
+    ]
+   ]
+  },
+  "f1_per_class_mean": [
+   0.8030320559408212,
+   0.7889667948866707,
+   0.8179596614667036,
+   0.9975939426697802,
+   0.5945996947830164,
+   0.33919914203219376
+  ]
+ },
+ "LGBM|noTTL": {
+  "random_split": {
+   "macroF1": 0.8041118605310454,
+   "bal_acc": 0.7901338710402589,
+   "acc": 0.8557358270392952,
+   "mcc": 0.822980068458682,
+   "f1_per_class": [
+    0.8473155648685253,
+    0.8267380768726987,
+    0.854503237220045,
+    0.9987462654716176,
+    0.7776092833124547,
+    0.5197587354409318
+   ],
+   "cm": [
+    [
+     33158,
+     0,
+     0,
+     0,
+     4048,
+     294
+    ],
+    [
+     1,
+     28403,
+     9105,
+     21,
+     2,
+     0
+    ],
+    [
+     0,
+     2720,
+     34777,
+     8,
+     1,
+     0
+    ],
+    [
+     0,
+     56,
+     9,
+     37441,
+     0,
+     0
+    ],
+    [
+     6362,
+     0,
+     0,
+     0,
+     23588,
+     616
+    ],
+    [
+     1245,
+     0,
+     0,
+     0,
+     2463,
+     2499
+    ]
+   ]
+  },
+  "file_disjoint_folds": [
+   {
+    "macroF1": 0.7064159684801673,
+    "bal_acc": 0.7145732643226276,
+    "acc": 0.7830080314852528,
+    "mcc": 0.7416307482374214,
+    "f1_per_class": [
+     0.732089413610188,
+     0.7547635197632114,
+     0.8219759490686159,
+     0.9975367162430262,
+     0.7092532259810821,
+     0.2228769862148795
+    ],
+    "cm": [
+     [
+      35469,
+      0,
+      0,
+      0,
+      1709,
+      322
+     ],
+     [
+      0,
+      24480,
+      12969,
+      81,
+      1,
+      1
+     ],
+     [
+      2,
+      2818,
+      36603,
+      57,
+      0,
+      0
+     ],
+     [
+      0,
+      38,
+      9,
+      37459,
+      0,
+      0
+     ],
+     [
+      22347,
+      0,
+      0,
+      0,
+      36029,
+      1624
+     ],
+     [
+      1580,
+      0,
+      0,
+      0,
+      3858,
+      1059
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.7103587715727127,
+    "bal_acc": 0.7083266288289242,
+    "acc": 0.7763231328531266,
+    "mcc": 0.7291630011198693,
+    "f1_per_class": [
+     0.7015249908792411,
+     0.7634567019360984,
+     0.817863800602978,
+     0.9984119146437485,
+     0.6697466675971805,
+     0.31114855377702894
+    ],
+    "cm": [
+     [
+      24036,
+      0,
+      0,
+      0,
+      12958,
+      506
+     ],
+     [
+      0,
+      25651,
+      11872,
+      8,
+      1,
+      0
+     ],
+     [
+      1,
+      3929,
+      35537,
+      12,
+      1,
+      0
+     ],
+     [
+      0,
+      85,
+      13,
+      37407,
+      1,
+      0
+     ],
+     [
+      4191,
+      0,
+      0,
+      0,
+      23992,
+      1817
+     ],
+     [
+      2797,
+      0,
+      0,
+      0,
+      4692,
+      2216
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.7377597434009563,
+    "bal_acc": 0.7497273092265999,
+    "acc": 0.8180464233705486,
+    "mcc": 0.776749926386021,
+    "f1_per_class": [
+     0.8426052051062599,
+     0.7835117743128742,
+     0.7916208754389257,
+     0.9975028376844495,
+     0.6773719146229977,
+     0.3339458532402303
+    ],
+    "cm": [
+     [
+      34950,
+      0,
+      0,
+      0,
+      2206,
+      344
+     ],
+     [
+      1,
+      28065,
+      9450,
+      16,
+      0,
+      0
+     ],
+     [
+      0,
+      5984,
+      29533,
+      14,
+      1,
+      0
+     ],
+     [
+      0,
+      58,
+      99,
+      37349,
+      0,
+      0
+     ],
+     [
+      9720,
+      0,
+      0,
+      0,
+      17042,
+      3238
+     ],
+     [
+      786,
+      0,
+      0,
+      0,
+      1069,
+      1363
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.7297095273987755,
+    "bal_acc": 0.7592264008461024,
+    "acc": 0.8771293365266692,
+    "mcc": 0.842305275733429,
+    "f1_per_class": [
+     0.9169605816137619,
+     0.8584199207110098,
+     0.8442745650878545,
+     0.9964732968685538,
+     0.3284072249589491,
+     0.4337215751525236
+    ],
+    "cm": [
+     [
+      33928,
+      0,
+      0,
+      0,
+      3378,
+      194
+     ],
+     [
+      1,
+      33129,
+      4213,
+      186,
+      1,
+      2
+     ],
+     [
+      0,
+      6474,
+      29046,
+      11,
+      1,
+      0
+     ],
+     [
+      1,
+      51,
+      16,
+      37438,
+      0,
+      0
+     ],
+     [
+      719,
+      0,
+      0,
+      0,
+      1500,
+      43
+     ],
+     [
+      1852,
+      0,
+      0,
+      0,
+      1993,
+      1564
+     ]
+    ]
+   }
+  ],
+  "file_disjoint_macroF1_mean": 0.721061002713153,
+  "file_disjoint_macroF1_sd": 0.015084867681057648,
+  "file_disjoint_pooled": {
+   "macroF1": 0.7329134120754991,
+   "bal_acc": 0.7264393023401966,
+   "acc": 0.8094094881749093,
+   "mcc": 0.7653794757044937,
+   "f1_per_class": [
+    0.796467533756642,
+    0.7926590480259176,
+    0.8185694962803397,
+    0.9974805206923902,
+    0.6752444186596188,
+    0.31705945503808597
+   ],
+   "cm": [
+    [
+     128383,
+     0,
+     0,
+     0,
+     20251,
+     1366
+    ],
+    [
+     2,
+     111325,
+     38504,
+     291,
+     3,
+     3
+    ],
+    [
+     3,
+     19205,
+     130719,
+     94,
+     3,
+     0
+    ],
+    [
+     1,
+     232,
+     137,
+     149653,
+     1,
+     0
+    ],
+    [
+     36977,
+     0,
+     0,
+     0,
+     78563,
+     6722
+    ],
+    [
+     7015,
+     0,
+     0,
+     0,
+     11612,
+     6202
+    ]
+   ]
+  },
+  "f1_per_class_mean": [
+   0.7982950478023627,
+   0.7900379791807984,
+   0.8189337975495936,
+   0.9974811913599444,
+   0.5961947582900523,
+   0.3254232420961656
+  ]
+ },
+ "LGBM|noIAT_noTTL": {
+  "random_split": {
+   "macroF1": 0.8033671909467528,
+   "bal_acc": 0.7894148192664815,
+   "acc": 0.8550078418987566,
+   "mcc": 0.822078369114379,
+   "f1_per_class": [
+    0.8471661470843768,
+    0.8252827058258503,
+    0.8532432432432432,
+    0.9987195561127857,
+    0.7768107341838921,
+    0.5189807592303692
+   ],
+   "cm": [
+    [
+     33153,
+     1,
+     0,
+     0,
+     4043,
+     303
+    ],
+    [
+     1,
+     28353,
+     9157,
+     19,
+     2,
+     0
+    ],
+    [
+     0,
+     2768,
+     34727,
+     10,
+     1,
+     0
+    ],
+    [
+     0,
+     57,
+     10,
+     37439,
+     0,
+     0
+    ],
+    [
+     6393,
+     0,
+     0,
+     0,
+     23563,
+     610
+    ],
+    [
+     1221,
+     0,
+     0,
+     0,
+     2491,
+     2495
+    ]
+   ]
+  },
+  "file_disjoint_folds": [
+   {
+    "macroF1": 0.7055676261784178,
+    "bal_acc": 0.7140058521145107,
+    "acc": 0.78222547651191,
+    "mcc": 0.7408944305052718,
+    "f1_per_class": [
+     0.7315836133847391,
+     0.752815079844493,
+     0.8219319161321378,
+     0.9970321670503999,
+     0.708030204451805,
+     0.22201277620693266
+    ],
+    "cm": [
+     [
+      35484,
+      0,
+      0,
+      0,
+      1668,
+      348
+     ],
+     [
+      0,
+      24302,
+      13130,
+      99,
+      1,
+      0
+     ],
+     [
+      2,
+      2690,
+      36712,
+      76,
+      0,
+      0
+     ],
+     [
+      0,
+      39,
+      9,
+      37458,
+      0,
+      0
+     ],
+     [
+      22444,
+      0,
+      0,
+      0,
+      35912,
+      1644
+     ],
+     [
+      1576,
+      0,
+      0,
+      0,
+      3861,
+      1060
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.710369080848896,
+    "bal_acc": 0.7080494408648135,
+    "acc": 0.7756920139993637,
+    "mcc": 0.7283650737259268,
+    "f1_per_class": [
+     0.7000743581145115,
+     0.7614713012954948,
+     0.8162081270864511,
+     0.9983184305351661,
+     0.6702187011827717,
+     0.3159235668789809
+    ],
+    "cm": [
+     [
+      24008,
+      0,
+      1,
+      0,
+      12984,
+      507
+     ],
+     [
+      0,
+      25598,
+      11921,
+      12,
+      1,
+      0
+     ],
+     [
+      1,
+      4016,
+      35452,
+      10,
+      1,
+      0
+     ],
+     [
+      0,
+      87,
+      16,
+      37402,
+      1,
+      0
+     ],
+     [
+      4288,
+      0,
+      0,
+      0,
+      24026,
+      1686
+     ],
+     [
+      2790,
+      0,
+      0,
+      0,
+      4683,
+      2232
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.7374198378658886,
+    "bal_acc": 0.748770786380257,
+    "acc": 0.8184766779930277,
+    "mcc": 0.7772737503836484,
+    "f1_per_class": [
+     0.8421243035959771,
+     0.784496991744788,
+     0.7935387248609328,
+     0.9975161583248758,
+     0.6773380938212833,
+     0.3295047548474744
+    ],
+    "cm": [
+     [
+      34917,
+      0,
+      0,
+      0,
+      2244,
+      339
+     ],
+     [
+      0,
+      28034,
+      9482,
+      15,
+      0,
+      1
+     ],
+     [
+      0,
+      5845,
+      29672,
+      14,
+      1,
+      0
+     ],
+     [
+      0,
+      59,
+      98,
+      37349,
+      0,
+      0
+     ],
+     [
+      9721,
+      0,
+      0,
+      0,
+      17074,
+      3205
+     ],
+     [
+      788,
+      0,
+      0,
+      0,
+      1096,
+      1334
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.7277753837824505,
+    "bal_acc": 0.7583041077449367,
+    "acc": 0.8758579950045268,
+    "mcc": 0.8408825343854501,
+    "f1_per_class": [
+     0.9202214262455226,
+     0.8566377619490039,
+     0.8408158497948696,
+     0.9964601298839562,
+     0.3182156133828996,
+     0.4343015214384509
+    ],
+    "cm": [
+     [
+      33912,
+      0,
+      0,
+      0,
+      3391,
+      197
+     ],
+     [
+      1,
+      33193,
+      4145,
+      190,
+      1,
+      2
+     ],
+     [
+      0,
+      6727,
+      28795,
+      9,
+      1,
+      0
+     ],
+     [
+      1,
+      44,
+      21,
+      37439,
+      1,
+      0
+     ],
+     [
+      712,
+      0,
+      0,
+      0,
+      1498,
+      52
+     ],
+     [
+      1578,
+      0,
+      0,
+      0,
+      2261,
+      1570
+     ]
+    ]
+   }
+  ],
+  "file_disjoint_macroF1_mean": 0.7202829821689133,
+  "file_disjoint_macroF1_sd": 0.01488438831379533,
+  "file_disjoint_pooled": {
+   "macroF1": 0.7324807829797604,
+   "bal_acc": 0.7259347595241831,
+   "acc": 0.8088581457497789,
+   "mcc": 0.7646903337325767,
+   "f1_per_class": [
+    0.7964732498921554,
+    0.7916099757089634,
+    0.8177777499546135,
+    0.9973308630209565,
+    0.6739981456680746,
+    0.3176947136337999
+   ],
+   "cm": [
+    [
+     128321,
+     0,
+     1,
+     0,
+     20287,
+     1391
+    ],
+    [
+     1,
+     111127,
+     38678,
+     316,
+     3,
+     3
+    ],
+    [
+     3,
+     19278,
+     130631,
+     109,
+     3,
+     0
+    ],
+    [
+     1,
+     229,
+     144,
+     149648,
+     2,
+     0
+    ],
+    [
+     37165,
+     0,
+     0,
+     0,
+     78510,
+     6587
+    ],
+    [
+     6732,
+     0,
+     0,
+     0,
+     11901,
+     6196
+    ]
+   ]
+  },
+  "f1_per_class_mean": [
+   0.7985009253351876,
+   0.7888552837084449,
+   0.8181236544685978,
+   0.9973317214485995,
+   0.5934506532096899,
+   0.3254356548429597
+  ]
+ },
+ "XGB|noIAT_noTTL": {
+  "random_split": {
+   "macroF1": 0.8024207026667827,
+   "bal_acc": 0.7894667845294769,
+   "acc": 0.8542102699433135,
+   "mcc": 0.8210514705784151,
+   "f1_per_class": [
+    0.8449422113122634,
+    0.82685183840086,
+    0.8538758831203997,
+    0.9987066839108812,
+    0.7733738662084689,
+    0.516773733047823
+   ],
+   "cm": [
+    [
+     33044,
+     1,
+     0,
+     0,
+     4106,
+     349
+    ],
+    [
+     3,
+     28459,
+     9045,
+     24,
+     1,
+     0
+    ],
+    [
+     0,
+     2799,
+     34687,
+     19,
+     1,
+     0
+    ],
+    [
+     0,
+     46,
+     8,
+     37452,
+     0,
+     0
+    ],
+    [
+     6444,
+     0,
+     0,
+     0,
+     23405,
+     717
+    ],
+    [
+     1225,
+     0,
+     0,
+     0,
+     2448,
+     2534
+    ]
+   ]
+  },
+  "file_disjoint_folds": [
+   {
+    "macroF1": 0.7058529625583456,
+    "bal_acc": 0.7145004714000655,
+    "acc": 0.7813376656064801,
+    "mcc": 0.7399878994814404,
+    "f1_per_class": [
+     0.7297862477465877,
+     0.7535567058240089,
+     0.8223120597556469,
+     0.9960111687275628,
+     0.706220776781566,
+     0.22723081651470137
+    ],
+    "cm": [
+     [
+      35422,
+      0,
+      0,
+      0,
+      1682,
+      396
+     ],
+     [
+      0,
+      24312,
+      13092,
+      127,
+      1,
+      0
+     ],
+     [
+      0,
+      2641,
+      36715,
+      122,
+      2,
+      0
+     ],
+     [
+      0,
+      41,
+      10,
+      37455,
+      0,
+      0
+     ],
+     [
+      22520,
+      0,
+      0,
+      0,
+      35721,
+      1759
+     ],
+     [
+      1633,
+      0,
+      0,
+      0,
+      3755,
+      1109
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.7080171911231194,
+    "bal_acc": 0.7062370739677762,
+    "acc": 0.7745236617411578,
+    "mcc": 0.7270031702127082,
+    "f1_per_class": [
+     0.6964504999707619,
+     0.7627267451377212,
+     0.8172651933701658,
+     0.9983722915999573,
+     0.6673166926677067,
+     0.30597172399240347
+    ],
+    "cm": [
+     [
+      23820,
+      0,
+      1,
+      0,
+      13139,
+      540
+     ],
+     [
+      1,
+      25628,
+      11885,
+      18,
+      0,
+      0
+     ],
+     [
+      0,
+      3963,
+      35502,
+      13,
+      2,
+      0
+     ],
+     [
+      0,
+      78,
+      12,
+      37415,
+      1,
+      0
+     ],
+     [
+      4249,
+      0,
+      0,
+      0,
+      23954,
+      1797
+     ],
+     [
+      2834,
+      0,
+      0,
+      0,
+      4696,
+      2175
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.733591731217396,
+    "bal_acc": 0.7482422570303147,
+    "acc": 0.8165460482767751,
+    "mcc": 0.7751588025458968,
+    "f1_per_class": [
+     0.8407008053707482,
+     0.786901777335817,
+     0.7963014924974279,
+     0.9974498991975861,
+     0.6649050107100675,
+     0.3152914021927294
+    ],
+    "cm": [
+     [
+      34813,
+      0,
+      0,
+      0,
+      2300,
+      387
+     ],
+     [
+      0,
+      28092,
+      9420,
+      19,
+      0,
+      1
+     ],
+     [
+      0,
+      5714,
+      29798,
+      20,
+      0,
+      0
+     ],
+     [
+      0,
+      61,
+      91,
+      37354,
+      0,
+      0
+     ],
+     [
+      9700,
+      0,
+      0,
+      0,
+      16607,
+      3693
+     ],
+     [
+      806,
+      0,
+      0,
+      0,
+      1046,
+      1366
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.7311990840024433,
+    "bal_acc": 0.7594914876737805,
+    "acc": 0.8760185179239892,
+    "mcc": 0.8409426068130137,
+    "f1_per_class": [
+     0.9153492908521965,
+     0.8573016426918951,
+     0.8420254788210944,
+     0.996567140348076,
+     0.32200983069361006,
+     0.4539411206077873
+    ],
+    "cm": [
+     [
+      33786,
+      0,
+      0,
+      0,
+      3488,
+      226
+     ],
+     [
+      2,
+      33166,
+      4176,
+      186,
+      1,
+      1
+     ],
+     [
+      0,
+      6633,
+      28884,
+      15,
+      0,
+      0
+     ],
+     [
+      0,
+      42,
+      14,
+      37449,
+      0,
+      1
+     ],
+     [
+      727,
+      0,
+      0,
+      0,
+      1474,
+      61
+     ],
+     [
+      1806,
+      0,
+      0,
+      0,
+      1930,
+      1673
+     ]
+    ]
+   }
+  ],
+  "file_disjoint_macroF1_mean": 0.7196652422253261,
+  "file_disjoint_macroF1_sd": 0.014758418680697879,
+  "file_disjoint_pooled": {
+   "macroF1": 0.7314936741603906,
+   "bal_acc": 0.7256304017442955,
+   "acc": 0.8078638558908663,
+   "mcc": 0.7635205902620008,
+   "f1_per_class": [
+    0.7937501358193711,
+    0.7928584415630715,
+    0.8190811703751909,
+    0.9970987652264862,
+    0.6701341457633985,
+    0.3160393862148248
+   ],
+   "cm": [
+    [
+     127841,
+     0,
+     1,
+     0,
+     20609,
+     1549
+    ],
+    [
+     3,
+     111198,
+     38573,
+     350,
+     2,
+     2
+    ],
+    [
+     0,
+     18951,
+     130899,
+     170,
+     4,
+     0
+    ],
+    [
+     0,
+     222,
+     127,
+     149673,
+     1,
+     1
+    ],
+    [
+     37196,
+     0,
+     0,
+     0,
+     77756,
+     7310
+    ],
+    [
+     7079,
+     0,
+     0,
+     0,
+     11427,
+     6323
+    ]
+   ]
+  },
+  "f1_per_class_mean": [
+   0.7955717109850736,
+   0.7901217177473605,
+   0.8194760561110838,
+   0.9971001249682956,
+   0.5901130777132375,
+   0.32560876582690534
+  ]
+ },
+ "RF|noIAT_noTTL": {
+  "random_split": {
+   "macroF1": 0.7744013504385969,
+   "bal_acc": 0.7620336892631369,
+   "acc": 0.8312466210248532,
+   "mcc": 0.7915305875472257,
+   "f1_per_class": [
+    0.8237789186463035,
+    0.8024656002400142,
+    0.8121531125413659,
+    0.998386688177491,
+    0.7531066215187208,
+    0.45651716150768584
+   ],
+   "cm": [
+    [
+     31851,
+     1,
+     0,
+     0,
+     5243,
+     405
+    ],
+    [
+     1,
+     29422,
+     8074,
+     32,
+     3,
+     0
+    ],
+    [
+     0,
+     6314,
+     31168,
+     23,
+     1,
+     0
+    ],
+    [
+     0,
+     60,
+     6,
+     37440,
+     0,
+     0
+    ],
+    [
+     6606,
+     0,
+     0,
+     0,
+     23242,
+     718
+    ],
+    [
+     1371,
+     0,
+     0,
+     0,
+     2668,
+     2168
+    ]
+   ]
+  },
+  "file_disjoint_folds": [
+   {
+    "macroF1": 0.6913329645219787,
+    "bal_acc": 0.6991581102419967,
+    "acc": 0.7681806740955999,
+    "mcc": 0.7217238922826151,
+    "f1_per_class": [
+     0.7248871476899981,
+     0.7356806241724447,
+     0.7775597616711732,
+     0.9962240068074244,
+     0.7063979829019422,
+     0.2072482638888889
+    ],
+    "cm": [
+     [
+      35248,
+      0,
+      0,
+      0,
+      1841,
+      411
+     ],
+     [
+      1,
+      25836,
+      11602,
+      92,
+      1,
+      0
+     ],
+     [
+      2,
+      6832,
+      32495,
+      150,
+      1,
+      0
+     ],
+     [
+      0,
+      37,
+      5,
+      37464,
+      0,
+      0
+     ],
+     [
+      22786,
+      0,
+      0,
+      0,
+      35861,
+      1353
+     ],
+     [
+      1714,
+      0,
+      0,
+      0,
+      3828,
+      955
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.6848339504479931,
+    "bal_acc": 0.6829204344427199,
+    "acc": 0.7490181146758604,
+    "mcc": 0.6940815912693458,
+    "f1_per_class": [
+     0.6736193823896813,
+     0.7327239488117002,
+     0.7552947625454727,
+     0.997971169247197,
+     0.6584640195751307,
+     0.290930420118777
+    ],
+    "cm": [
+     [
+      23188,
+      0,
+      1,
+      0,
+      13717,
+      594
+     ],
+     [
+      0,
+      27054,
+      10459,
+      17,
+      2,
+      0
+     ],
+     [
+      0,
+      9152,
+      30313,
+      13,
+      2,
+      0
+     ],
+     [
+      0,
+      107,
+      14,
+      37384,
+      1,
+      0
+     ],
+     [
+      4963,
+      0,
+      0,
+      0,
+      23681,
+      1356
+     ],
+     [
+      3195,
+      0,
+      1,
+      0,
+      4525,
+      1984
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.7149711148960826,
+    "bal_acc": 0.723112091603391,
+    "acc": 0.7993524116323198,
+    "mcc": 0.752499214698362,
+    "f1_per_class": [
+     0.8186773654622392,
+     0.7730538842623952,
+     0.758511837655017,
+     0.9971156927678667,
+     0.6541087918056957,
+     0.28835911742328174
+    ],
+    "cm": [
+     [
+      33567,
+      0,
+      0,
+      0,
+      3455,
+      478
+     ],
+     [
+      1,
+      29102,
+      8412,
+      17,
+      0,
+      0
+     ],
+     [
+      0,
+      8591,
+      26912,
+      29,
+      0,
+      0
+     ],
+     [
+      0,
+      66,
+      104,
+      37336,
+      0,
+      0
+     ],
+     [
+      10088,
+      0,
+      0,
+      0,
+      16859,
+      3053
+     ],
+     [
+      847,
+      0,
+      0,
+      0,
+      1234,
+      1137
+     ]
+    ]
+   },
+   {
+    "macroF1": 0.6979727660375089,
+    "bal_acc": 0.7356971703377128,
+    "acc": 0.8521391284247565,
+    "mcc": 0.8120250835712925,
+    "f1_per_class": [
+     0.8961407018421272,
+     0.8372648927470592,
+     0.8077917393134131,
+     0.9971909738401118,
+     0.2655985758789497,
+     0.3838497126033927
+    ],
+    "cm": [
+     [
+      32253,
+      0,
+      0,
+      0,
+      4950,
+      297
+     ],
+     [
+      3,
+      33275,
+      4121,
+      130,
+      1,
+      2
+     ],
+     [
+      0,
+      8633,
+      26872,
+      27,
+      0,
+      0
+     ],
+     [
+      1,
+      45,
+      7,
+      37452,
+      1,
+      0
+     ],
+     [
+      714,
+      0,
+      0,
+      0,
+      1492,
+      56
+     ],
+     [
+      1511,
+      0,
+      0,
+      0,
+      2529,
+      1369
+     ]
+    ]
+   }
+  ],
+  "file_disjoint_macroF1_mean": 0.6972776989758909,
+  "file_disjoint_macroF1_sd": 0.012957968337386426,
+  "file_disjoint_pooled": {
+   "macroF1": 0.7109484524125564,
+   "bal_acc": 0.7045222081850308,
+   "acc": 0.7883246550429766,
+   "mcc": 0.7384733473246897,
+   "f1_per_class": [
+    0.7764010472316469,
+    0.7713830648669268,
+    0.7738184521241646,
+    0.9971246272510703,
+    0.6594311789132377,
+    0.28753234408829276
+   ],
+   "cm": [
+    [
+     124256,
+     0,
+     1,
+     0,
+     23963,
+     1780
+    ],
+    [
+     5,
+     115267,
+     34594,
+     256,
+     4,
+     2
+    ],
+    [
+     2,
+     33208,
+     116592,
+     219,
+     3,
+     0
+    ],
+    [
+     1,
+     255,
+     130,
+     149636,
+     2,
+     0
+    ],
+    [
+     38551,
+     0,
+     0,
+     0,
+     77893,
+     5818
+    ],
+    [
+     7267,
+     0,
+     1,
+     0,
+     12116,
+     5445
+    ]
+   ]
+  },
+  "f1_per_class_mean": [
+   0.7783311493460114,
+   0.7696808374983999,
+   0.774789525296269,
+   0.99712546066565,
+   0.5711423425404295,
+   0.29259687850858507
+  ]
+ }
+}

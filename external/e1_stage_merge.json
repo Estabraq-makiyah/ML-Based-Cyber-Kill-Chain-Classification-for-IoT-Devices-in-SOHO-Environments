@@ -1,0 +1,194 @@
+{
+ "LGBM|all": {
+  "stage_macroF1_folds": [
+   0.7354390973351437,
+   0.7383203493409585,
+   0.7757061436458279,
+   0.7389866834830029
+  ],
+  "stage_macroF1_mean": 0.7471130684512332,
+  "category_macroF1_mean": 0.7241349717190394,
+  "delivery_F1_folds": [
+   0.9990322853004786,
+   0.999195275488351,
+   0.9986668398635391,
+   0.9982189341005617
+  ],
+  "confusion_rates_pooled": {
+   "DDoS_to_DoS": 0.2550357028668869,
+   "DoS_to_DDoS": 0.13064576334453154,
+   "Recon_to_Benign": 0.2955865272938444,
+   "Benign_to_Recon": 0.1357,
+   "Web_to_Benign": 0.22691207861774537,
+   "Web_to_Recon": 0.5072294494341294
+  },
+  "confusion_rates_random": {
+   "DDoS_to_DoS": 0.2417936694021102,
+   "DoS_to_DDoS": 0.07316162747293767,
+   "Recon_to_Benign": 0.19963357979454296,
+   "Benign_to_Recon": 0.10728,
+   "Web_to_Benign": 0.1706138231029483,
+   "Web_to_Recon": 0.4061543418720799
+  }
+ },
+ "LGBM|noIAT": {
+  "stage_macroF1_folds": [
+   0.7335156762902993,
+   0.7378081713691872,
+   0.7781513623292149,
+   0.7370759059110218
+  ],
+  "stage_macroF1_mean": 0.7466377789749308,
+  "category_macroF1_mean": 0.7235585486298644,
+  "delivery_F1_folds": [
+   0.9990713019307828,
+   0.9992017496609058,
+   0.9986599756607825,
+   0.998123210542899
+  ],
+  "confusion_rates_pooled": {
+   "DDoS_to_DoS": 0.25672093147181074,
+   "DoS_to_DDoS": 0.12993254412627314,
+   "Recon_to_Benign": 0.29610181413685366,
+   "Benign_to_Recon": 0.13628,
+   "Web_to_Benign": 0.2298521889725724,
+   "Web_to_Recon": 0.5081557855733215
+  },
+  "confusion_rates_random": {
+   "DDoS_to_DoS": 0.2423531919428754,
+   "DoS_to_DDoS": 0.07422812350023997,
+   "Recon_to_Benign": 0.19763789831839298,
+   "Benign_to_Recon": 0.10885333333333333,
+   "Web_to_Benign": 0.1683583051393588,
+   "Web_to_Recon": 0.4101820525213469
+  }
+ },
+ "LGBM|noTTL": {
+  "stage_macroF1_folds": [
+   0.7321057006480749,
+   0.7360093834778051,
+   0.7700267058939924,
+   0.7347440248997458
+  ],
+  "stage_macroF1_mean": 0.7432214537299046,
+  "category_macroF1_mean": 0.721061002713153,
+  "delivery_F1_folds": [
+   0.9987721611911985,
+   0.9992147904918267,
+   0.9987077188160243,
+   0.9981574459049406
+  ],
+  "confusion_rates_pooled": {
+   "DDoS_to_DoS": 0.2564744751145689,
+   "DoS_to_DDoS": 0.128012851277129,
+   "Recon_to_Benign": 0.3024406602214916,
+   "Benign_to_Recon": 0.13500666666666666,
+   "Web_to_Benign": 0.2825325224535825,
+   "Web_to_Recon": 0.4676789238390592
+  },
+  "confusion_rates_random": {
+   "DDoS_to_DoS": 0.24259298731748907,
+   "DoS_to_DDoS": 0.07252172985655629,
+   "Recon_to_Benign": 0.20813976313551005,
+   "Benign_to_Recon": 0.10794666666666666,
+   "Web_to_Benign": 0.20057999033349444,
+   "Web_to_Recon": 0.39681005316578055
+  }
+ },
+ "LGBM|noIAT_noTTL": {
+  "stage_macroF1_folds": [
+   0.7314380435621676,
+   0.7367395908507965,
+   0.7690395751322671,
+   0.7334712172742064
+  ],
+  "stage_macroF1_mean": 0.7426721067048594,
+  "category_macroF1_mean": 0.7202829821689133,
+  "delivery_F1_folds": [
+   0.998531456716961,
+   0.9991628975425527,
+   0.9987145650717245,
+   0.9981573954202029
+  ],
+  "confusion_rates_pooled": {
+   "DDoS_to_DoS": 0.25763348609186826,
+   "DoS_to_DDoS": 0.12849944008958566,
+   "Recon_to_Benign": 0.3039783415942811,
+   "Benign_to_Recon": 0.13524666666666665,
+   "Web_to_Benign": 0.27113456039308875,
+   "Web_to_Recon": 0.47931853880542913
+  },
+  "confusion_rates_random": {
+   "DDoS_to_DoS": 0.2439784717041458,
+   "DoS_to_DDoS": 0.07380152508931904,
+   "Recon_to_Benign": 0.2091539619184715,
+   "Benign_to_Recon": 0.10781333333333333,
+   "Web_to_Benign": 0.19671338811019817,
+   "Web_to_Recon": 0.40132108909295955
+  }
+ },
+ "XGB|noIAT_noTTL": {
+  "stage_macroF1_folds": [
+   0.7314558426632103,
+   0.7334599893243351,
+   0.7634068414373335,
+   0.7372158908202018
+  ],
+  "stage_macroF1_mean": 0.7413846410612701,
+  "category_macroF1_mean": 0.7196652422253261,
+  "delivery_F1_folds": [
+   0.9980302035456337,
+   0.9991887383908463,
+   0.9986870897155361,
+   0.9982120715993397
+  ],
+  "confusion_rates_pooled": {
+   "DDoS_to_DoS": 0.25693408291591174,
+   "DoS_to_DDoS": 0.12631978883378658,
+   "Recon_to_Benign": 0.30423189543766666,
+   "Benign_to_Recon": 0.13739333333333334,
+   "Web_to_Benign": 0.2851101534495952,
+   "Web_to_Recon": 0.46022795924120985
+  },
+  "confusion_rates_random": {
+   "DDoS_to_DoS": 0.24099435148673132,
+   "DoS_to_DDoS": 0.07462805951047832,
+   "Recon_to_Benign": 0.21082248249689198,
+   "Benign_to_Recon": 0.10949333333333333,
+   "Web_to_Benign": 0.19735782181408087,
+   "Web_to_Recon": 0.3943934267762204
+  }
+ },
+ "RF|noIAT_noTTL": {
+  "stage_macroF1_folds": [
+   0.7265757139348946,
+   0.7239932516646375,
+   0.751355443384125,
+   0.708261506574467
+  ],
+  "stage_macroF1_mean": 0.727546478889531,
+  "category_macroF1_mean": 0.6972776989758909,
+  "delivery_F1_folds": [
+   0.9981211683862201,
+   0.9989812669924016,
+   0.9985162494615422,
+   0.9985275687077532
+  ],
+  "confusion_rates_pooled": {
+   "DDoS_to_DoS": 0.23043003303847384,
+   "DoS_to_DDoS": 0.22135125046659201,
+   "Recon_to_Benign": 0.3153146521404852,
+   "Benign_to_Recon": 0.15975333333333333,
+   "Web_to_Benign": 0.2926819445003826,
+   "Web_to_Recon": 0.4879777679326594
+  },
+  "confusion_rates_random": {
+   "DDoS_to_DoS": 0.21512309495896834,
+   "DoS_to_DDoS": 0.1683463979096678,
+   "Recon_to_Benign": 0.21612248904010992,
+   "Benign_to_Recon": 0.13981333333333335,
+   "Web_to_Benign": 0.2208796520057999,
+   "Web_to_Recon": 0.4298372804897696
+  }
+ }
+}

@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the article below."
-title: "Code for: Stage-Aware Intrusion Classification for SOHO IoT Traffic under Leakage-Controlled Evaluation"
+title: "Code for: ML-Based Cyber Kill Chain Classification for IoT Devices in SOHO Environments"
 authors:
   - family-names: Aziz
     given-names: Benjamin

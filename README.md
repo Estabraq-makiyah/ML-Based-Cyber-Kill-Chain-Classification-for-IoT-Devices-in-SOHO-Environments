@@ -1,1 +1,23 @@
-Machine-learning intrusion detection studies on the CICIoT2023 IoT dataset routinely report near-perfect accuracy. We show that, for the widely used class-balanced six-class release, such figures are an artefact of the evaluation protocol. A data audit finds that 39.0\% of the 1.8 million records are exact duplicates introduced by oversampling: under the conventional random 80/20 split, 48.6\% of test records have an identical copy in the training set. We also find that the inter-arrival-time feature behaves as a capture-time stamp, achieving 87.4\% accuracy on its own. Under the conventional protocol, Random Forest reaches 99.86\% accuracy. With duplicates removed, the shortcut feature excluded, capture-time-blocked five-fold cross-validation and nested hyperparameter tuning, the best of seven models (XGBoost) reaches a macro-F1 of 0.733 (95\% CI $\pm$0.098), and the three tree ensembles are statistically indistinguishable. At a realistic 1\% attack prevalence, alert precision falls to 8.3\%. On an independently processed, duplicate-free release of the full CICIoT2023 capture, a random split again yields a near-perfect macro-F1 (0.992), whereas holding out entire capture files reduces it to 0.867, with previously unseen web-attack subtypes largely undetected. We then evaluate a Cyber Kill Chain stage-level output layer on what a stage label adds beyond an attack label: merging the DDoS and DoS categories into a single Delivery stage removes a confusion that the window-averaged features of this release cannot resolve; a previously unseen Delivery subtype is still assigned to the Delivery stage; and cost-sensitive stage decisions reduce missed attacks. SHAP analysis is repeated on the leakage-controlled model. We release the audit and the evaluation code so that results on this dataset can be reported reproducibly.
+# External evaluation
+
+An independent check on the original CICIoT2023 release, using capture-file-disjoint cross-validation
+(no capture file contributes records to both training and test sets).
+
+1. `build_external_sample.py path/to/ciciot2023.parquet` rebuilds the exact 747,267-record sample (305 capture files)
+   from the cleaned full release, using the row numbers in `external_sample_index.csv.gz`.
+   The script checks that the input has 46,776,697 rows.
+2. `external_evaluation.py` uses the 39 numeric columns of the release as model inputs (38 traffic features and the
+   `rate_was_infinite` flag); labels, the capture-file name and any row-position column are never used as inputs.
+   It trains LightGBM (four feature sets: all, without IAT, without TTL, without both),
+   XGBoost and Random Forest, and compares a random record-level split with 4 capture-file-disjoint folds.
+   Output: `results/external/e1_external.json`.
+
+The six categories (Benign, DDoS, DoS, Mirai, Recon, Web) come from the `category` column of the cleaned release.
+3. `external_stage_merge.py` collapses the confusion matrices to the kill-chain stages of Table 6 (DDoS and DoS
+   merged into Delivery) and writes the stage-level scores and the confusion rates quoted in Sections 4.4 and 4.5
+   to `results/external/e1_stage_merge.json`.
+
+Note on an earlier version: a previous run of `external_evaluation.py` also used `file_row_number`, the position of a
+record within its capture file, as an input. That column identifies the capture and the position in it rather than
+traffic behaviour, and it inflated the random-split scores (macro-F1 0.992 to 0.998). It is now excluded, and all
+external results in the paper come from the corrected run.
